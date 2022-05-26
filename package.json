@@ -3,12 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.8.1",
+    "@fortawesome/fontawesome-svg-core": "^6.1.0",
+    "@fortawesome/free-solid-svg-icons": "^6.1.0",
+    "@fortawesome/react-fontawesome": "^0.1.18",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.25.0",
+    "js-cookie": "^3.0.1",
+    "qs": "^6.10.3",
     "react": "^17.0.2",
+    "react-confirm-alert": "^2.8.0",
     "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
+    "react-modal": "^3.14.4",
+    "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "react-spinners": "^0.11.0",
+    "react-toastify": "^8.2.0",
+    "validator": "^13.7.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +49,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.21"
+  },
+  "proxy": "http://localhost:5000/"
 }
